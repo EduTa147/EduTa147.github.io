@@ -168,6 +168,14 @@
       color: var(--ink-light);
       margin-bottom: 1.5rem;
     }
+    .hero-name-label {
+      font-family: var(--serif);
+      font-size: 1.55rem;
+      font-weight: 500;
+      color: var(--ink-mid);
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.01em;
+    }
     h2 {
       font-family: var(--serif);
       font-size: 1.85rem;
@@ -262,6 +270,7 @@
       margin-bottom: 1rem;
     }
     .project-card:last-child { margin-bottom: 0; }
+    a.project-card:hover { border-color: var(--accent); }
     .project-title {
       font-family: var(--serif);
       font-size: 1.05rem;
@@ -320,6 +329,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#teaching">Teaching</a></li>
     <li><a href="#service">Service</a></li>
+    <li><a href="#dissemination">Dissemination</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -327,7 +337,7 @@
 <!-- ── HERO ────────────────────────────────────── -->
 <header>
   <div>
-    <p class="section-label">Eduardo Tapia, PhD</p>
+    <p class="hero-name-label">Eduardo Tapia, PhD</p>
     <h1 class="hero-name">Associate<br>Professor<br>of Sociology</h1>
     <p class="hero-title">Institute for Analytical Sociology · Linköping University</p>
     <div class="hero-links">
@@ -532,6 +542,32 @@
       <li><strong>Ad-hoc Reviewer</strong> — <em>Scandinavian Journal of Educational Research</em>, <em>Journal of Education Policy</em>, <em>Journal of Artificial Societies and Social Simulation</em>, <em>American Educational Research Journal</em></li>
       <li><strong>Invited Speaker</strong> — International seminars and conferences on urban segregation and demographic challenges</li>
     </ul>
+  </section>
+
+  <!-- ── DISSEMINATION ────────────────────────────── -->
+  <section id="dissemination">
+    <p class="section-label">Research in the media</p>
+    <h2>Dissemination</h2>
+
+    <a class="project-card" href="https://liu.se/en/news-item/school-closures-inefficient-in-combatting-segregation-simulation-shows" target="_blank" style="display:block; text-decoration:none; transition: border-color .2s;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:0.3rem;">
+        <p class="project-title" style="margin:0;">School closures inefficient in combatting segregation, simulation shows</p>
+        <span style="font-size:12px; color:var(--ink-light); white-space:nowrap;">May 2023</span>
+      </div>
+      <p class="project-meta" style="margin-bottom:0.4rem;">Linköping University · News</p>
+      <p class="project-desc">Municipalities have sometimes closed schools dominated by immigrant-background students to counter segregation. New computer simulations show this method seldom gives the desired result — and in some scenarios even increases segregation.</p>
+    </a>
+
+    <div style="height:0.75rem;"></div>
+
+    <a class="project-card" href="https://liu.se/en/news-item/skolors-intagning-segregerar-elever" target="_blank" style="display:block; text-decoration:none; transition: border-color .2s;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:0.3rem;">
+        <p class="project-title" style="margin:0;">Schools' intake segregates students</p>
+        <span style="font-size:12px; color:var(--ink-light); white-space:nowrap;">January 2023</span>
+      </div>
+      <p class="project-meta" style="margin-bottom:0.4rem;">Linköping University · News</p>
+      <p class="project-desc">Intake rules for upper secondary schools — based on grades or geographical proximity — have a clear, measurable effect on ethnic segregation among students, even after controlling for housing segregation and school choice.</p>
+    </a>
   </section>
 
   <!-- ── CONTACT ──────────────────────────────────── -->
