@@ -121,6 +121,22 @@
     .pill:hover { border-color: var(--accent); color: var(--accent); }
     .pill.accent { background: var(--accent-light); border-color: var(--accent-light); color: var(--accent); }
 
+    .btn-cv {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 1.1rem;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      transition: background .2s, transform .15s;
+    }
+    .btn-cv:hover { background: #1e4a8a; transform: translateY(-1px); }
+
     .monogram {
       width: 90px; height: 90px;
       border-radius: 50%;
@@ -321,6 +337,10 @@
       </a>
       <a class="pill" href="https://liu.se/en/employee/eduta37" target="_blank">Linköping Profile</a>
       <a class="pill" href="https://scholar.google.com" target="_blank">Google Scholar</a>
+      <a class="btn-cv" href="CV_Eduardo_Tapia.pdf" download>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
     </div>
   </div>
   <div class="monogram">ET</div>
